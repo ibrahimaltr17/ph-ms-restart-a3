@@ -1,2 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@layer utilities {
+  .gradient-background {
+    @apply bg-gradient-to-br from-[#632EE3] to-[#9F62F2];
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent;
+  }
+}
