@@ -7,8 +7,8 @@ const TrendingApp = () => {
         <div className='m-10 md:m-20'>
             {/* Title Container */}
             <div className='text-center space-y-4'>
-                <h2 className='text-5xl font-bold'>Trending Apps</h2>
-                <p className='text-[#627382]'>Explore All Trending Apps on the Market developed by us</p>
+                <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold'>Trending Apps</h2>
+                <p className='text-[#627382] text-sm md:text-lg'>Explore All Trending Apps on the Market developed by us</p>
             </div>
             {/* Card Container */}
             <div className='my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
