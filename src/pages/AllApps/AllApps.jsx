@@ -5,7 +5,7 @@ import Rating from '../../assets/icon-ratings.png'
 
 const AllApps = () => {
     return (
-        <div className='m-10 md:m-20 space-y-10'>
+        <div className='p-10 md:p-20 bg-gray-100 space-y-10'>
             {/* All App title */}
             <div className='text-center space-y-4'>
                 <h2 className='text-3xl md:text-4xl lg:text-5xl font-bold'>Our All Applications</h2>
@@ -40,7 +40,7 @@ const AllApps = () => {
             {/* Card Container */}
             <div className='my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
                 {/* Card 1 */}
-                <div className='p-4 rounded-sm shadow-sm space-y-4'>
+                <div className='p-4 bg-white rounded-sm shadow-sm space-y-4'>
                     <div className='bg-gray-400 h-56  rounded-lg'>
 
                     </div>

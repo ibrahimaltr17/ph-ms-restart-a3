@@ -5,7 +5,7 @@ import Hero from '../../assets/hero.png'
 
 const Banner = () => {
     return (
-        <div className='max-w-360 mx-auto mt-10 md:mt-20 px-5 space-y-10 md:space-y-20'>
+        <div className='max-w-360 mx-auto bg-gray-100 pt-10 md:pt-20 px-5 space-y-10 md:space-y-20'>
             {/* Banner Content */}
             <div className='text-center space-y-10'>
                 <div className='space-y-5 max-w-[950px] mx-auto'>
