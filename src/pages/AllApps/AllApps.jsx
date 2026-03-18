@@ -1,9 +1,15 @@
-import React from 'react';
-import Download from '../../assets/icon-downloads.png'
-import Rating from '../../assets/icon-ratings.png'
+import React, { useState } from 'react';
+import { useLoaderData } from 'react-router';
+import CardApp from '../../components/CardApp/CardApp';
 
 
 const AllApps = () => {
+    const data = useLoaderData()
+
+    const [search, setSearch] = useState("");
+
+    const filteredApps = data.filter(app =>
+        app.title.toLowerCase().includes(search.toLowerCase()))
     return (
         <div className='p-10 md:p-20 bg-gray-100 space-y-10'>
             {/* All App title */}
@@ -15,7 +21,7 @@ const AllApps = () => {
             <div>
                 <div className='flex flex-col-reverse gap-3 md:flex-row justify-between'>
                     <div>
-                        <h4 className='text-xl md:text-2xl font-semibold'>(132) Apps Found</h4>
+                        <h4 className='text-xl md:text-2xl font-semibold'>({data.length}) Apps Found</h4>
                     </div>
                     {/* Search Input */}
                     <div>
@@ -32,105 +38,25 @@ const AllApps = () => {
                                     <path d="m21 21-4.3-4.3"></path>
                                 </g>
                             </svg>
-                            <input type="search" required placeholder="Search Apps" />
+                            <input type="search"
+                                placeholder="Search Apps"
+                                value={search}
+                                onChange={(e) => setSearch(e.target.value)} />
                         </label>
                     </div>
                 </div>
             </div>
             {/* Card Container */}
             <div className='my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
-                {/* Card 1 */}
-                <div className='p-4 bg-white rounded-sm shadow-sm space-y-4'>
-                    <div className='bg-gray-400 h-56  rounded-lg'>
-
-                    </div>
-                    <div>
-                        <h4 className='font-bold text-[20px]'>Forest: Focus for Productivity</h4>
-                    </div>
-                    <div className='flex justify-between items-center'>
-                        <div className='py-1.5 px-2.5 w-fit bg-[#F1F5E8] rounded-sm flex gap-2 items-center'>
-                            <div className='h-4 w-4'>
-                                <img src={Download} alt="" />
-                            </div>
-                            <p className='text-[16px] font-medium text-[#00D390]'>9M</p>
-                        </div>
-                        <div className='py-1.5 px-2.5 w-fit bg-[#FFF0E1] rounded-sm flex gap-2 items-center'>
-                            <div className='h-4 w-4'>
-                                <img src={Rating} alt="" />
-                            </div>
-                            <p className='text-[16px] font-medium text-[#FF8811]'>5</p>
-                        </div>
-                    </div>
-                </div>
-                {/* Card 1 */}
-                <div className='p-4 rounded-sm shadow-sm space-y-4'>
-                    <div className='bg-gray-400 h-56 rounded-lg'>
-
-                    </div>
-                    <div>
-                        <h4 className='font-bold text-[20px]'>Forest: Focus for Productivity</h4>
-                    </div>
-                    <div className='flex justify-between items-center'>
-                        <div className='py-1.5 px-2.5 w-fit bg-[#F1F5E8] rounded-sm flex gap-2 items-center'>
-                            <div className='h-4 w-4'>
-                                <img src={Download} alt="" />
-                            </div>
-                            <p className='text-[16px] font-medium text-[#00D390]'>9M</p>
-                        </div>
-                        <div className='py-1.5 px-2.5 w-fit bg-[#FFF0E1] rounded-sm flex gap-2 items-center'>
-                            <div className='h-4 w-4'>
-                                <img src={Rating} alt="" />
-                            </div>
-                            <p className='text-[16px] font-medium text-[#FF8811]'>5</p>
-                        </div>
-                    </div>
-                </div>
-                {/* Card 1 */}
-                <div className='p-4 rounded-sm shadow-sm space-y-4'>
-                    <div className='bg-gray-400 h-56 rounded-lg'>
-
-                    </div>
-                    <div>
-                        <h4 className='font-bold text-[20px]'>Forest: Focus for Productivity</h4>
-                    </div>
-                    <div className='flex justify-between items-center'>
-                        <div className='py-1.5 px-2.5 w-fit bg-[#F1F5E8] rounded-sm flex gap-2 items-center'>
-                            <div className='h-4 w-4'>
-                                <img src={Download} alt="" />
-                            </div>
-                            <p className='text-[16px] font-medium text-[#00D390]'>9M</p>
-                        </div>
-                        <div className='py-1.5 px-2.5 w-fit bg-[#FFF0E1] rounded-sm flex gap-2 items-center'>
-                            <div className='h-4 w-4'>
-                                <img src={Rating} alt="" />
-                            </div>
-                            <p className='text-[16px] font-medium text-[#FF8811]'>5</p>
-                        </div>
-                    </div>
-                </div>
-                {/* Card 1 */}
-                <div className='p-4 rounded-sm shadow-sm space-y-4'>
-                    <div className='bg-gray-400 h-56 rounded-lg'>
-
-                    </div>
-                    <div>
-                        <h4 className='font-bold text-[20px]'>Forest: Focus for Productivity</h4>
-                    </div>
-                    <div className='flex justify-between items-center'>
-                        <div className='py-1.5 px-2.5 w-fit bg-[#F1F5E8] rounded-sm flex gap-2 items-center'>
-                            <div className='h-4 w-4'>
-                                <img src={Download} alt="" />
-                            </div>
-                            <p className='text-[16px] font-medium text-[#00D390]'>9M</p>
-                        </div>
-                        <div className='py-1.5 px-2.5 w-fit bg-[#FFF0E1] rounded-sm flex gap-2 items-center'>
-                            <div className='h-4 w-4'>
-                                <img src={Rating} alt="" />
-                            </div>
-                            <p className='text-[16px] font-medium text-[#FF8811]'>5</p>
-                        </div>
-                    </div>
-                </div>
+                {
+                   filteredApps.length > 0 ? (
+                        filteredApps.map(app => (
+                            <CardApp key={app.id} app={app} />
+                        ))
+                    ) : (
+                        <p>No App Found</p>
+                    )
+                }
             </div>
         </div>
     );

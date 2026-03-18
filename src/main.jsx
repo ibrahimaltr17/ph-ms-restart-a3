@@ -5,16 +5,25 @@ import Home from './Home.jsx'
 import { createBrowserRouter } from 'react-router';
 import { RouterProvider } from "react-router/dom";
 import Layout from './Layout.jsx';
+import PageNotFound from './pages/errors/PageNotFound.jsx';
+import AllApps from './pages/AllApps/AllApps.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout></Layout>,
+    errorElement: <PageNotFound></PageNotFound>,
     children: [
       {
         path: "/",
+        loader:()=> fetch('/apps.json'),
         index: true,
         Component: Home
+      },
+      {
+        path: "/allApps",
+        loader:()=> fetch('/apps.json'),
+        Component: AllApps
       }
     ]
   },
