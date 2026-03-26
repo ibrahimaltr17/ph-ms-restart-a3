@@ -7,7 +7,7 @@ const Navbar = () => {
     const Links = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/allApps">App</Link></li>
-        <li><a>Installation</a></li>
+        <li><Link to="/installedApps">App</Link></li>
     </>
 
     return (

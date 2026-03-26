@@ -8,6 +8,7 @@ import Layout from './Layout.jsx';
 import PageNotFound from './pages/errors/PageNotFound.jsx';
 import AllApps from './pages/AllApps/AllApps.jsx';
 import AppDetails from './pages/AppDetails/AppDetails.jsx'
+import InstalledApps from './pages/InstalledApps/InstalledApps.jsx';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
         path: "/appDetails/:id",
         loader:()=> fetch('/apps.json'),
         Component: AppDetails
+      },
+      {
+        path: "/installedApps",
+        Component: InstalledApps
       }
     ]
   },
