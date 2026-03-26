@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Download from '../../assets/icon-downloads.png'
 import Rating from '../../assets/icon-ratings.png'
 import Review from '../../assets/icon-review.png'
 import ChartRating from '../../components/ChartRating/ChartRating';
 import { useLoaderData, useParams } from 'react-router';
 import { formatNumber } from '../../utility/formatNumber';
+import { getInstalledApps, saveInstalledApp } from '../../utility/localStorage';
+import Swal from 'sweetalert2';
 
 const AppDetails = () => {
     const { id } = useParams()
@@ -13,6 +15,58 @@ const AppDetails = () => {
     const singleApp = data.find(app => app.id === appID);
     console.log(singleApp)
     const { description, downloads, image, ratingAvg, reviews, size, title } = singleApp
+
+    // Installation
+    const [installed, setInstalled] = useState(false);
+
+    useEffect(() => {
+        const apps = getInstalledApps();
+        const exists = apps.find(app => app.id === appID);
+        if (exists) setInstalled(true);
+    }, [appID]);
+
+    const handleInstall = async () => {
+
+        const apps = getInstalledApps();
+        const exists = apps.find(app => app.id === appID);
+
+        if (exists) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Already Installed!',
+            });
+            return;
+        }
+
+        let progress = 0;
+
+        await Swal.fire({
+            title: 'Installing...',
+            html: 'Progress: <b>0%</b>',
+            timer: 2500,
+            timerProgressBar: true,
+            didOpen: () => {
+                Swal.showLoading();
+
+                const b = Swal.getHtmlContainer().querySelector('b');
+
+                const interval = setInterval(() => {
+                    progress += 10;
+                    if (b) b.textContent = `${progress}%`;
+                }, 250);
+            }
+        });
+
+        saveInstalledApp(singleApp);
+        setInstalled(true);
+
+        Swal.fire({
+            icon: 'success',
+            title: 'Installed Successfully 🚀',
+            timer: 1500,
+            showConfirmButton: false
+        });
+    };
 
     return (
         <div className='bg-gray-100 p-10 md:p-20'>
@@ -50,8 +104,12 @@ const AppDetails = () => {
                         </div>
                     </div>
                     <div className='flex justify-center lg:justify-start'>
-                        <button className='py-3 px-4 rounded-sm bg-[#00D390] text-[16px] font-semibold text-white cursor-pointer'>
-                            Install Now ({size} MB)
+                        <button
+                            onClick={handleInstall}
+                            disabled={installed}
+                            className={`py-3 px-4 rounded-sm text-[16px] font-semibold text-white ${installed ? 'bg-gray-400 cursor-not-allowed' : 'bg-[#00D390]'}`}
+                        >
+                            {installed ? 'Installed' : `Install Now (${size} MB)`}
                         </button>
                     </div>
                 </div>
