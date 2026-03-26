@@ -1,9 +1,9 @@
 import React from 'react';
 import Download from '../../assets/icon-downloads.png'
 import Rating from '../../assets/icon-ratings.png'
+import { formatNumber } from '../../utility/formatNumber';
 
 const TrendingCard = ({app}) => {
-    console.log(app)
     return (
         <div className='p-4 bg-white rounded-sm shadow-sm space-y-4'>
             <div className='bg-gray-400 h-56  rounded-lg'>
@@ -17,7 +17,7 @@ const TrendingCard = ({app}) => {
                     <div className='h-4 w-4'>
                         <img src={Download} alt="" />
                     </div>
-                    <p className='text-[16px] font-medium text-[#00D390]'>{app.downloads}</p>
+                    <p className='text-[16px] font-medium text-[#00D390]'>{formatNumber(app.downloads)}</p>
                 </div>
                 <div className='py-1.5 px-2.5 w-fit bg-[#FFF0E1] rounded-sm flex gap-2 items-center'>
                     <div className='h-4 w-4'>

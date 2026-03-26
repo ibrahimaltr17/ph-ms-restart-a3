@@ -6,7 +6,8 @@ import { createBrowserRouter } from 'react-router';
 import { RouterProvider } from "react-router/dom";
 import Layout from './Layout.jsx';
 import PageNotFound from './pages/errors/PageNotFound.jsx';
-import AllApps from './pages/AllApps/AllApps.jsx'
+import AllApps from './pages/AllApps/AllApps.jsx';
+import AppDetails from './pages/AppDetails/AppDetails.jsx'
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
         path: "/allApps",
         loader:()=> fetch('/apps.json'),
         Component: AllApps
+      },
+      {
+        path: "/appDetails/:id",
+        loader:()=> fetch('/apps.json'),
+        Component: AppDetails
       }
     ]
   },

@@ -21,7 +21,7 @@ const AllApps = () => {
             <div>
                 <div className='flex flex-col-reverse gap-3 md:flex-row justify-between'>
                     <div>
-                        <h4 className='text-xl md:text-2xl font-semibold'>({data.length}) Apps Found</h4>
+                        <h4 className='text-xl md:text-2xl font-semibold'>({filteredApps.length}) Apps Found</h4>
                     </div>
                     {/* Search Input */}
                     <div>

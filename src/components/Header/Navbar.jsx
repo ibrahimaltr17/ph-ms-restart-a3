@@ -1,8 +1,15 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
 import { FaGithub } from "react-icons/fa";
+import { Link } from 'react-router';
 
 const Navbar = () => {
+    const Links = <>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/allApps">App</Link></li>
+        <li><a>Installation</a></li>
+    </>
+
     return (
         <div className="navbar bg-base-100 shadow-sm max-w-360 mx-auto px-5">
             <div className="navbar-start">
@@ -15,9 +22,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a>App</a></li>
-                    <li><a>Installation</a></li>
+                    {Links}
                 </ul>
             </div>
             <div className="dropdown">
@@ -27,9 +32,7 @@ const Navbar = () => {
                 <ul
                     tabIndex="-1"
                     className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><a>Home</a></li>
-                    <li><a>App</a></li>
-                    <li><a>Installation</a></li>
+                    {Links}
                 </ul>
             </div>
             <div className="navbar-end ">

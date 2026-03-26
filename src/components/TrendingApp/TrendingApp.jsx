@@ -1,5 +1,6 @@
 import React from 'react';
 import TrendingCard from '../TrendingCard/TrendingCard';
+import { Link } from 'react-router';
 
 const TrendingApp = ({ data }) => {
     const trendingApps = [...data]
@@ -21,9 +22,11 @@ const TrendingApp = ({ data }) => {
             </div>
             {/* See more button */}
             <div className='flex justify-center'>
-                <button className='gradient-background py-3 px-10 text-[16px] rounded-sm font-semibold text-white cursor-pointer'>
-                    See All
-                </button>
+                <Link to={'/allApps'}>
+                    <button className='gradient-background py-3 px-10 text-[16px] rounded-sm font-semibold text-white cursor-pointer'>
+                        See All
+                    </button>
+                </Link>
             </div>
         </div>
     );
