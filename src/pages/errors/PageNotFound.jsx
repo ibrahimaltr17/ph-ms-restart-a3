@@ -1,5 +1,6 @@
 import React from 'react';
 import PageNot from '../../assets/error-404.png'
+import { Link } from 'react-router';
 
 const PageNotFound = () => {
     return (
@@ -9,7 +10,9 @@ const PageNotFound = () => {
             </div>
             <h2 className='text-2xl md:text-3xl lg:text-4xl font-semibold'>Oops, page not found!</h2>
             <p className='text-[#627382]'>The page you are looking for is not available.</p>
-            <button className='py-3 px-5 rounded-sm gradient-background text-white'>Go Back!</button>
+            <Link to={'/'}>
+                <button className='py-3 px-5 rounded-sm gradient-background text-white'>Go Back!</button>
+            </Link>
         </div>
     );
 };

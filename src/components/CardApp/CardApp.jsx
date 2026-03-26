@@ -9,8 +9,9 @@ const CardApp = ({ app }) => {
     return (
         <Link to={`/appDetails/${app.id}`}>
             <div className='p-4 bg-white rounded-sm shadow-sm space-y-4'>
-                <div className='bg-gray-400 h-56  rounded-lg'>
-                    <img src={app.image} alt="" />
+                <div className='bg-gray-100 h-56 rounded-lg flex items-center justify-center overflow-hidden p-4'>
+                    <img
+                        src={app.image} alt="" className='h-full object-contain'/>
                 </div>
                 <div>
                     <h4 className='font-bold text-[20px]'>{app.title}</h4>

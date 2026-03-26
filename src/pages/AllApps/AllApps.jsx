@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import CardApp from '../../components/CardApp/CardApp';
+import AppNotFound from '../errors/AppNotFound'
 
 
 const AllApps = () => {
@@ -54,7 +55,9 @@ const AllApps = () => {
                             <CardApp key={app.id} app={app} />
                         ))
                     ) : (
-                        <p>No App Found</p>
+                        <div className='col-span-full'>
+    <AppNotFound />
+</div>
                     )
                 }
             </div>

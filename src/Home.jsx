@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <State></State>
+      <State data={data}></State>
       <TrendingApp data={data}></TrendingApp>
     </div>
   );
