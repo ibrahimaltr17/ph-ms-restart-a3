@@ -1,373 +1,364 @@
 [
   {
     "id": 1,
-    "title": "ChatLoop",
-    "companyName": "LoopTech",
-    "image": "https://i.ibb.co/xtS9fZcc/Yellow-Black-Chat-Message-Logo.png",
-    "description": "ChatLoop is a modern messaging platform designed for fast, secure, and reliable communication. It offers encrypted chats, high-quality voice and video calls, file sharing, and group conversations. The app is optimized for both low and high-end devices, ensuring smooth performance. With privacy-focused features and customizable chat settings, ChatLoop provides users with full control over their communication experience.",
-    "size": 82,
-    "reviews": 950000,
-    "ratingAvg": 4.4,
-    "downloads": 3000000000,
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "description": "WhatsApp is a globally popular messaging app offering instant text, voice, and video communication. It features end-to-end encryption, group chats, media sharing, and voice/video calls across devices.",
+    "size": 85,
+    "reviews": 180000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 4000 },
-      { "name": "2 star", "count": 7000 },
-      { "name": "3 star", "count": 12000 },
-      { "name": "4 star", "count": 25000 },
-      { "name": "5 star", "count": 800000 }
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 150000000 }
     ]
   },
   {
     "id": 2,
-    "title": "FriendSpace",
-    "companyName": "Connectify Inc.",
-    "image": "https://i.ibb.co/jkY40zJm/Gemini-Generated-Image-t8tu30t8tu30t8tu.png",
-    "description": "FriendSpace is a comprehensive social networking platform that helps users connect, share, and engage globally. It includes features such as personalized news feeds, live streaming, group communities, and event management tools. Advanced AI recommendations ensure users see the most relevant content, making their experience engaging and meaningful.",
-    "size": 118,
-    "reviews": 1800000,
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg",
+    "description": "Facebook is a social networking platform that connects people worldwide. It offers news feeds, groups, pages, messaging, live streaming, and marketplace features.",
+    "size": 120,
+    "reviews": 250000000,
     "ratingAvg": 4.2,
-    "downloads": 4500000000,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 18000 },
-      { "name": "2 star", "count": 14000 },
-      { "name": "3 star", "count": 28000 },
-      { "name": "4 star", "count": 48000 },
-      { "name": "5 star", "count": 1100000 }
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 200000000 }
     ]
   },
   {
     "id": 3,
-    "title": "SnapGram",
-    "companyName": "Pixster Labs",
-    "image": "https://i.ibb.co/BKcwG235/Gemini-Generated-Image-2yz71n2yz71n2yz7.png",
-    "description": "SnapGram is a creative platform focused on sharing photos and videos with powerful editing tools. It offers filters, reels, stories, and AI-based enhancements to help users create visually appealing content. With a vibrant community and trending discovery system, SnapGram is ideal for creators and influencers.",
-    "size": 97,
-    "reviews": 1500000,
-    "ratingAvg": 4.5,
-    "downloads": 3500000000,
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+    "description": "Instagram is a photo and video sharing app with features like stories, reels, filters, and direct messaging, widely used by creators and influencers.",
+    "size": 110,
+    "reviews": 220000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 9000 },
-      { "name": "2 star", "count": 11000 },
-      { "name": "3 star", "count": 18000 },
-      { "name": "4 star", "count": 38000 },
-      { "name": "5 star", "count": 950000 }
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 3500000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 22000000 },
+      { "name": "5 star", "count": 180000000 }
     ]
   },
   {
     "id": 4,
-    "title": "StreamTube",
-    "companyName": "Vision Media",
-    "image": "https://i.ibb.co/hF83jm79/Colorful-Abstract-Illustrative-Stream-Studio-Logo.png",
-    "description": "StreamTube is a powerful video streaming and sharing platform offering content across entertainment, education, and live broadcasts. Users can upload videos, subscribe to channels, and explore trending topics. It supports HD streaming, offline viewing, and monetization features for creators.",
-    "size": 115,
-    "reviews": 2200000,
-    "ratingAvg": 4.6,
-    "downloads": 8000000000,
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
+    "description": "YouTube is the world's largest video sharing platform where users can watch, upload, and stream videos across entertainment, education, and live content.",
+    "size": 130,
+    "reviews": 300000000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
     "ratings": [
-      { "name": "1 star", "count": 14000 },
-      { "name": "2 star", "count": 18000 },
-      { "name": "3 star", "count": 27000 },
-      { "name": "4 star", "count": 55000 },
-      { "name": "5 star", "count": 1300000 }
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 30000000 },
+      { "name": "5 star", "count": 250000000 }
     ]
   },
   {
     "id": 5,
-    "title": "TuneFlow",
-    "companyName": "SoundWave Ltd.",
-    "image": "https://i.ibb.co/C5hGVCvD/Gemini-Generated-Image-dakd75dakd75dakd.png",
-    "description": "TuneFlow is a feature-rich music streaming app that gives access to millions of songs and podcasts. It includes curated playlists, personalized suggestions, and offline listening. Its intuitive interface and high-quality audio streaming make it perfect for music lovers worldwide.",
-    "size": 78,
-    "reviews": 850000,
-    "ratingAvg": 4.3,
-    "downloads": 900000000,
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
+    "description": "TikTok is a short-form video platform known for viral content, creative tools, filters, and AI-driven personalized recommendations.",
+    "size": 140,
+    "reviews": 200000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 6000 },
-      { "name": "2 star", "count": 8000 },
-      { "name": "3 star", "count": 14000 },
-      { "name": "4 star", "count": 23000 },
-      { "name": "5 star", "count": 650000 }
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 3500000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 160000000 }
     ]
   },
   {
     "id": 6,
-    "title": "ClipBuzz",
-    "companyName": "BuzzByte",
-    "image": "https://i.ibb.co/YBMDBjb3/TV-Television-Youtube-Show-Channel-Video-Red-Blue-Black-Logo.png",
-    "description": "ClipBuzz is a short video platform designed for quick entertainment and creativity. Users can create, edit, and share engaging clips using built-in tools and trending effects. The platform uses smart algorithms to recommend personalized content and boost discoverability.",
-    "size": 128,
-    "reviews": 1900000,
-    "ratingAvg": 4.4,
-    "downloads": 4200000000,
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "description": "Spotify is a leading music streaming platform offering millions of songs, playlists, podcasts, and personalized recommendations.",
+    "size": 95,
+    "reviews": 150000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 18000 },
-      { "name": "2 star", "count": 16000 },
-      { "name": "3 star", "count": 23000 },
-      { "name": "4 star", "count": 47000 },
-      { "name": "5 star", "count": 1200000 }
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 18000000 },
+      { "name": "5 star", "count": 120000000 }
     ]
   },
   {
     "id": 7,
-    "title": "MovieBox",
-    "companyName": "CineStream",
-    "image": "https://i.ibb.co/27Rww3RM/Simple-Typography-Halloween-Scary-Movie-Logo.png",
-    "description": "MovieBox is a premium streaming service offering movies, TV shows, and exclusive content. It supports HD and 4K streaming, offline downloads, and multi-device syncing. With smart recommendations and diverse genres, users enjoy a cinema-like experience at home.",
-    "size": 135,
-    "reviews": 700000,
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "description": "Netflix is a streaming service offering movies, TV shows, and original content with HD and 4K viewing options.",
+    "size": 150,
+    "reviews": 120000000,
     "ratingAvg": 4.2,
-    "downloads": 950000000,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 8000 },
-      { "name": "2 star", "count": 10000 },
-      { "name": "3 star", "count": 14000 },
-      { "name": "4 star", "count": 20000 },
-      { "name": "5 star", "count": 550000 }
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 95000000 }
     ]
   },
   {
     "id": 8,
-    "title": "MapGo",
-    "companyName": "GeoTech",
-    "image": "https://i.ibb.co/nMH36RNX/Yellow-Blue-Modern-Home-Location-Logo.png",
-    "description": "MapGo is a navigation and mapping app that provides real-time directions, traffic updates, and route planning. Users can explore nearby places, save favorite locations, and use offline maps for convenience during travel.",
-    "size": 92,
-    "reviews": 1500000,
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Google_Maps_icon_%282020%29.svg",
+    "description": "Google Maps provides navigation, real-time traffic updates, and location discovery with accurate maps worldwide.",
+    "size": 100,
+    "reviews": 180000000,
     "ratingAvg": 4.5,
-    "downloads": 3800000000,
+    "downloads": 10000000000,
     "ratings": [
-      { "name": "1 star", "count": 7000 },
-      { "name": "2 star", "count": 9000 },
-      { "name": "3 star", "count": 18000 },
-      { "name": "4 star", "count": 42000 },
-      { "name": "5 star", "count": 1000000 }
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 22000000 },
+      { "name": "5 star", "count": 150000000 }
     ]
   },
-
   {
     "id": 9,
-    "title": "SnapTalk",
-    "companyName": "SnapCore",
-    "image": "https://i.ibb.co/Z1wCzW0r/Black-and-Green-Flat-Illustrative-Photograph-Studio-Logo.png",
-    "description": "SnapTalk is a fun messaging app that focuses on instant photo and video sharing. It includes filters, AR lenses, disappearing messages, and private chats, making conversations more engaging and interactive.",
-    "size": 88,
-    "reviews": 600000,
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c4/Snapchat_logo.svg",
+    "description": "Snapchat is a multimedia messaging app featuring disappearing messages, AR filters, and stories.",
+    "size": 90,
+    "reviews": 90000000,
     "ratingAvg": 4.1,
-    "downloads": 900000000,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 9000 },
-      { "name": "2 star", "count": 11000 },
-      { "name": "3 star", "count": 13000 },
-      { "name": "4 star", "count": 18000 },
-      { "name": "5 star", "count": 450000 }
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 70000000 }
     ]
   },
   {
     "id": 10,
-    "title": "RideX",
-    "companyName": "UrbanMove",
-    "image": "https://i.ibb.co/qYycdPqD/Black-and-White-Squares-Corporate-Letter-R-Logo.png",
-    "description": "RideX is a ride-sharing platform that connects drivers and passengers efficiently. It offers real-time tracking, fare estimates, multiple ride options, and secure payment methods, making commuting easy and reliable.",
-    "size": 102,
-    "reviews": 550000,
+    "title": "Uber",
+    "companyName": "Uber Technologies",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png",
+    "description": "Uber is a ride-hailing app that connects drivers and riders with real-time tracking and digital payments.",
+    "size": 110,
+    "reviews": 80000000,
     "ratingAvg": 4.0,
-    "downloads": 850000000,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 14000 },
-      { "name": "2 star", "count": 11000 },
-      { "name": "3 star", "count": 16000 },
-      { "name": "4 star", "count": 23000 },
-      { "name": "5 star", "count": 380000 }
-    ]
-  },
-
-  {
-    "id": 11,
-    "title": "ShopHub",
-    "companyName": "MarketNest",
-    "image": "https://i.ibb.co/BKn0RS7f/Orange-and-Gray-Tag-Cart-Virtual-Shop-Logo.png",
-    "description": "ShopHub is an all-in-one online shopping platform offering a wide range of products including electronics, fashion, and daily essentials. With secure payments, fast delivery, and regular discounts, it ensures a convenient shopping experience.",
-    "size": 87,
-    "reviews": 450000,
-    "ratingAvg": 4.3,
-    "downloads": 45000000,
-    "ratings": [
-      { "name": "1 star", "count": 4000 },
-      { "name": "2 star", "count": 5000 },
-      { "name": "3 star", "count": 7000 },
-      { "name": "4 star", "count": 11000 },
-      { "name": "5 star", "count": 280000 }
-    ]
-  },
-
-  {
-    "id": 12,
-    "title": "PayWave",
-    "companyName": "FinCore",
-    "image": "https://i.ibb.co/TVz5hhy/Purple-and-Black-Modern-Digital-Wallet-Logo.png",
-    "description": "PayWave is a digital wallet app that allows users to send money, pay bills, and recharge mobile services instantly. With high-level encryption and easy-to-use interface, it ensures safe and smooth financial transactions.",
-    "size": 62,
-    "reviews": 380000,
-    "ratingAvg": 4.4,
-    "downloads": 90000000,
-    "ratings": [
-      { "name": "1 star", "count": 2500 },
-      { "name": "2 star", "count": 3500 },
-      { "name": "3 star", "count": 5500 },
-      { "name": "4 star", "count": 8000 },
-      { "name": "5 star", "count": 230000 }
-    ]
-  },
-
-  {
-    "id": 13,
-    "title": "GoRide",
-    "companyName": "MoveIt Ltd.",
-    "image": "https://i.ibb.co/dwZtpX66/Blue-and-White-Illustrative-Travel-Agent-Logo.png",
-    "description": "GoRide is a multi-service platform offering ride-sharing, parcel delivery, and food services. It ensures fast service, reliable drivers, and seamless app experience for daily urban needs.",
-    "size": 72,
-    "reviews": 180000,
-    "ratingAvg": 4.2,
-    "downloads": 12000000,
-    "ratings": [
-      { "name": "1 star", "count": 1800 },
-      { "name": "2 star", "count": 2500 },
-      { "name": "3 star", "count": 3500 },
-      { "name": "4 star", "count": 6000 },
-      { "name": "5 star", "count": 140000 }
-    ]
-  },
-
-  {
-    "id": 14,
-    "title": "FoodDash",
-    "companyName": "QuickBite",
-    "image": "https://i.ibb.co/qFD7dzzh/Minimalist-Beige-Online-Fast-Food-Delivery-Logo.png",
-    "description": "FoodDash is a food delivery app that connects users with nearby restaurants. It offers quick delivery, real-time order tracking, and exclusive deals, ensuring a satisfying dining experience at home.",
-    "size": 98,
-    "reviews": 280000,
-    "ratingAvg": 4.1,
-    "downloads": 40000000,
-    "ratings": [
-      { "name": "1 star", "count": 3500 },
-      { "name": "2 star", "count": 4500 },
-      { "name": "3 star", "count": 6500 },
-      { "name": "4 star", "count": 9500 },
-      { "name": "5 star", "count": 190000 }
-    ]
-  },
-
-  {
-    "id": 15,
-    "title": "MeetPro",
-    "companyName": "ConnectMeet",
-    "image": "https://i.ibb.co/dStzjyd/Blue-Yellow-Infinite-Initial-M-Logo.png",
-    "description": "MeetPro is a professional video conferencing app designed for meetings, webinars, and collaboration. It supports HD video, screen sharing, and cloud recording, making it ideal for remote work and online learning.",
-    "size": 82,
-    "reviews": 850000,
-    "ratingAvg": 4.3,
-    "downloads": 900000000,
-    "ratings": [
-      { "name": "1 star", "count": 7000 },
-      { "name": "2 star", "count": 8000 },
-      { "name": "3 star", "count": 11000 },
-      { "name": "4 star", "count": 18000 },
-      { "name": "5 star", "count": 580000 }
-    ]
-  },
-
-  {
-    "id": 16,
-    "title": "QuickPost",
-    "companyName": "SocialEdge",
-    "image": "https://i.ibb.co/XfTdBzvQ/Black-White-Minimalist-Business-Logo.png",
-    "description": "QuickPost is a microblogging platform where users can share short updates, news, and opinions. It allows real-time interaction, trending topics, and global conversations, making it ideal for staying informed.",
-    "size": 76,
-    "reviews": 800000,
-    "ratingAvg": 4.0,
-    "downloads": 1800000000,
-    "ratings": [
-      { "name": "1 star", "count": 14000 },
-      { "name": "2 star", "count": 13000 },
-      { "name": "3 star", "count": 19000 },
-      { "name": "4 star", "count": 28000 },
-      { "name": "5 star", "count": 480000 }
-    ]
-  },
-
-  {
-    "id": 17,
-    "title": "ChatWave",
-    "companyName": "MetaSoft",
-    "image": "https://i.ibb.co/n86B3Xts/Red-and-Black-Modern-Chat-Logo.png",
-    "description": "ChatWave is an advanced messaging app that combines chat, voice, and video features in one platform. It offers smooth communication, fun stickers, and seamless integration with social networks.",
-    "size": 88,
-    "reviews": 920000,
-    "ratingAvg": 4.3,
-    "downloads": 4200000000,
-    "ratings": [
-      { "name": "1 star", "count": 11000 },
-      { "name": "2 star", "count": 12000 },
-      { "name": "3 star", "count": 17000 },
-      { "name": "4 star", "count": 32000 },
-      { "name": "5 star", "count": 780000 }
-    ]
-  },
-
-  {
-    "id": 18,
-    "title": "CloudBox",
-    "companyName": "DataNest",
-    "image": "https://i.ibb.co/JWw8hwts/Black-Orange-Simple-Cloud-Service-Logo.png",
-    "description": "CloudBox is a secure cloud storage platform that allows users to store, share, and access files from anywhere. It supports real-time collaboration and automatic backups for convenience.",
-    "size": 68,
-    "reviews": 550000,
-    "ratingAvg": 4.4,
-    "downloads": 1500000000,
-    "ratings": [
-      { "name": "1 star", "count": 4500 },
-      { "name": "2 star", "count": 6500 },
-      { "name": "3 star", "count": 8500 },
-      { "name": "4 star", "count": 14000 },
-      { "name": "5 star", "count": 380000 }
-    ]
-  },
-
-  {
-    "id": 19,
-    "title": "PhotoMaster",
-    "companyName": "PixelPro",
-    "image": "https://i.ibb.co/5gYFp428/Orange-yellow-modern-camera-logo.png",
-    "description": "PhotoMaster is a professional photo editing app with advanced tools for enhancing images. It offers filters, presets, and AI-powered editing features suitable for both beginners and professionals.",
-    "size": 122,
-    "reviews": 280000,
-    "ratingAvg": 4.5,
-    "downloads": 95000000,
-    "ratings": [
-      { "name": "1 star", "count": 2500 },
-      { "name": "2 star", "count": 3500 },
-      { "name": "3 star", "count": 5500 },
-      { "name": "4 star", "count": 11000 },
-      { "name": "5 star", "count": 190000 }
-    ]
-  },
-
-  {
-    "id": 20,
-    "title": "Designly",
-    "companyName": "CreativeSoft",
-    "image": "https://i.ibb.co/0jrTBssT/Red-Simple-Art-Studio-Logo.png",
-    "description": "Designly is a user-friendly graphic design tool that enables users to create stunning visuals for social media, presentations, and marketing. With drag-and-drop features and ready-made templates, it simplifies the design process.",
-    "size": 92,
-    "reviews": 700000,
-    "ratingAvg": 4.6,
-    "downloads": 450000000,
-    "ratings": [
-      { "name": "1 star", "count": 3500 },
-      { "name": "2 star", "count": 4500 },
-      { "name": "3 star", "count": 6500 },
-      { "name": "4 star", "count": 18000 },
-      { "name": "5 star", "count": 480000 }
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 60000000 }
     ]
   }
+  ,
+  {
+    "id": 11,
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "description": "Telegram is a cloud-based messaging app known for speed, security, and large group support. It offers channels, bots, file sharing, and end-to-end encrypted chats.",
+    "size": 75,
+    "reviews": 90000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 3500000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 70000000 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Messenger",
+    "companyName": "Meta Platforms",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg",
+    "description": "Messenger is a messaging app by Meta that enables text, voice, and video communication with friends and family across the world.",
+    "size": 95,
+    "reviews": 150000000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 18000000 },
+      { "name": "5 star", "count": 120000000 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg",
+    "description": "Gmail is Google's email service offering secure, fast, and smart email management with spam protection and integration with other Google services.",
+    "size": 80,
+    "reviews": 200000000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 160000000 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png",
+    "description": "Google Drive is a cloud storage service that allows users to store, share, and collaborate on files in real time.",
+    "size": 70,
+    "reviews": 120000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 100000000 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Google_Photos_icon_%282020%29.svg",
+    "description": "Google Photos offers photo storage, backup, and AI-powered organization, making it easy to find and share images.",
+    "size": 85,
+    "reviews": 110000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 95000000 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "description": "Amazon Shopping allows users to browse and purchase products online with fast delivery, reviews, and secure payments.",
+    "size": 120,
+    "reviews": 100000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 80000000 }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Zoom_Communications_Logo.svg",
+    "description": "Zoom is a video conferencing app used for meetings, webinars, and remote collaboration with screen sharing and recording features.",
+    "size": 90,
+    "reviews": 90000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 3500000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 70000000 }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023.svg",
+    "description": "X is a microblogging platform where users share real-time updates, news, and discussions globally.",
+    "size": 85,
+    "reviews": 95000000,
+    "ratingAvg": 4.0,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 75000000 }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+    "description": "Pinterest is a visual discovery app where users find ideas for design, fashion, recipes, and inspiration.",
+    "size": 95,
+    "reviews": 70000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 55000000 }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corporation",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+    "description": "LinkedIn is a professional networking platform where users build careers, connect with professionals, and find job opportunities.",
+    "size": 100,
+    "reviews": 60000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 48000000 }
+    ]
+  }
+
 ]
